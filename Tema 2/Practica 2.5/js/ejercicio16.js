@@ -4,9 +4,7 @@ function informacion(elEvento) {
     let evento = elEvento || window.event;
     let coordenadaX = evento.clientX;
     let coordenadaY = evento.clientY;
-    let dimensiones = tamanoVentanaNavegador();
-    let dimensionX = dimensiones[0];
-    let dimensionY = dimensiones[1];
+    let [dimensionX, dimensionY] = tamanoVentanaNavegador();
     if(coordenadaX > dimensionX/2)
         posicionVertical = "Derecha";
     
