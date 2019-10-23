@@ -1,10 +1,8 @@
 function informacion(elEvento) {
-    let posicionVertical;
-    let posicionHorizontal;
-    let evento = elEvento || window.event;
-    let coordenadaX = evento.clientX;
-    let coordenadaY = evento.clientY;
-    let [dimensionX, dimensionY] = tamanoVentanaNavegador();
+    let posicionVertical, posicionHorizontal;
+    const  coordenadaX = elEvento.clientX;
+    const  coordenadaY = elEvento.clientY;
+    const  [dimensionX, dimensionY] = tamanoVentanaNavegador();
     if(coordenadaX > dimensionX/2)
         posicionVertical = "Derecha";
     
@@ -13,6 +11,7 @@ function informacion(elEvento) {
     
     if(coordenadaY > dimensionY/2)
         posicionHorizontal = "Abajo";
+
     else
         posicionHorizontal = "Arriba";
     
