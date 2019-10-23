@@ -1,3 +1,5 @@
+let elementoDiv;
+
 function informacion(elEvento) {
     let posicionVertical, posicionHorizontal;
     const  coordenadaX = elEvento.clientX;
@@ -15,15 +17,26 @@ function informacion(elEvento) {
     else
         posicionHorizontal = "Arriba";
     
-    muestraInformacion(['Posicion', posicionHorizontal, posicionVertical]);
+    return muestraInformacion(['Posicion', posicionHorizontal, posicionVertical]);
 }
 function muestraInformacion(mensaje) {
-    document.getElementById("info").innerHTML = '<h1>'+mensaje[0]+'</h1>';
+    let texto = '<h1>'+mensaje[0]+'</h1>';
     for(var i=1; i<mensaje.length; i++) {
-        document.getElementById("info").innerHTML += '<p>'+mensaje[i]+'</p>';
+        texto += '<p>'+mensaje[i]+'</p>';
     }
+    elementoDiv.innerHTML = texto;
 }
 function tamanoVentanaNavegador(){
     return [window.innerWidth, window.innerHeight];
 }
-document.onclick = informacion;
+
+let inicio = function(){
+    elementoDiv = document.getElementById("info");
+
+    document.addEventListener("click", informacion);
+};
+
+document.addEventListener("DOMContentLoaded", inicio);
+
+
+//document.onclick = informacion;
