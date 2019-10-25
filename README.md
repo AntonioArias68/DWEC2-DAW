@@ -30,7 +30,7 @@ Actualmente se encuentran disponibles los siguientes ejercicios:
 | Práctica 1.3 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.1 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.2 |![img](http://i.imgur.com/VJ7IoXU.png) |
-| Práctica 2.3 |![img](http://i.imgur.com/kR8HJwg.png) |
+| Práctica 2.3 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.4 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.5 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.6 |![img](http://i.imgur.com/VJ7IoXU.png) |
