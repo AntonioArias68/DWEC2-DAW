@@ -34,6 +34,10 @@ Actualmente se encuentran disponibles los siguientes ejercicios:
 | Práctica 2.4 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.5 |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Práctica 2.6 |![img](http://i.imgur.com/VJ7IoXU.png) |
-
+| Arrays |![img](http://i.imgur.com/VJ7IoXU.png) |
+| Ventanas |![img](http://i.imgur.com/VJ7IoXU.png) |
+| Window y Screen |![img](http://i.imgur.com/kR8HJwg.png) |
+| String, RegExp y Number |![img](http://i.imgur.com/kR8HJwg.png) |
+| Number |![img](http://i.imgur.com/kR8HJwg.png) |
 
 [Twitter]: <https://twitter.com/RafaLpeC/>
