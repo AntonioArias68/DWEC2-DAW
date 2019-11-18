@@ -21,7 +21,7 @@
             ventana[i].document.write("Ventana " + i + "<button onclick='window.close();'>Cerrar</button>");
             ventana[i].document.close();
 
-        }        
+        }
     }
 
     let init = function(){
