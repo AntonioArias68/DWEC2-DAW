@@ -38,6 +38,5 @@ Actualmente se encuentran disponibles los siguientes ejercicios:
 | Ventanas |![img](http://i.imgur.com/VJ7IoXU.png) |
 | Window y Screen |![img](http://i.imgur.com/kR8HJwg.png) |
 | String, RegExp y Number |![img](http://i.imgur.com/kR8HJwg.png) |
-| Number |![img](http://i.imgur.com/kR8HJwg.png) |
 
 [Twitter]: <https://twitter.com/RafaLpeC/>
