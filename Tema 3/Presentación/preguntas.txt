@@ -1,0 +1,96 @@
+﻿$CATEGORY: Document
+
+//Pregunta 1:
+::document :: ¿Qué es document? {
+    ~Un objeto que deriva de Document y nos permite trabajar únicamente con formularios.
+    =Un objeto que cuelga del objeto window, que deriva de la interfaz Document, y que posee en forma de collection todos los elementos del árbol DOM.
+    ~Un objeto que cuelga de window y que nos permite descargar en paralelo cualquier script.
+}
+
+//Pregunta 2:
+::Formularios :: Elige la opción correcta, si quisieramos modificar el contenido del segundo input del primer formulario... {
+    ~document.forms[0][2].innerHTML \= "Nuevo contenido";
+    ~document.forms[0][1].innerHTML \= "Nuevo contenido";
+    =document.forms[0][1].value \= "Nuevo contenido";
+    ~document.forms[0][2].value \= "Nuevo contenido";
+}
+
+//Pregunta 3:
+::fullscreenEnable :: ¿Para qué se usa document.fullscreenEnable? {
+    =Devuelve un valor booleano que determina si la ventana se puede poner en modo pantalla completa.
+    ~Devuelve un valor booleano que determina si la ventana está modo pantalla completa.
+    ~Activa el modo pantalla completa.
+    ~Actualmente es una propiedad que ya no se usa por estar deprecated.
+}
+
+//Pregunta 4:
+::lastModified :: ¿Para qué se usa document.lastModified? {
+    ~Devuelve un String indicando cuál fue la última modificación realizada en la página.
+    ~Deshace la última modificación realizada en la página.
+    =Devuelve un String con la fecha y hora de la última modificación realizada.
+    ~Devuelve un valor booleano si ha habido modificación en la página.
+}
+
+//Pregunta 5:
+::styleSheetSet :: ¿Para qué se usa document.styleSheetSet? {
+    =Devuelve una lista con el conjunto de hojas css vinculadas a la página.
+    ~Devuelve un String indicando cuál es la hoja de css activa.
+    ~Permite seleccionar una hoja de css concreta.
+    ~Devuelve un String con la resolución máxima que soporta la hoja de css activa antes de cambiar por responsive.
+}
+
+//Pregunta 6:
+::método ById() :: document.getElementById() permite obtener un elemento del documento cuyo {=id} coincide con el parámetro proporcionado.
+
+//Pregunta 7:
+::método TagName() :: ¿Si queremos obtener del documento la lista de elementos con el nombre de una etiqueta, que método usaríamos? {
+	~document.getElementByTagName().
+	~document.getElementsByName().
+	=document.getElementsByTagName().
+	~document.getElementById().
+}
+
+//Pregunta 8:
+::método ByName() :: document.getElementsByName() permite obtener un elemento del documento cuyo atributo {=name} coincide con el parámetro proporcionado.
+
+//Pregunta 9:
+::método write() :: El uso de document.write() unicamente permite escribir en el HTML y no escribe caliente.{FALSE}
+
+//Pregunta 10:
+::método :: ¿Qué métodos usamos para añadir elementos en caliente por ejemplo a una lista? {	
+	~document.createTextNode().
+	~document.createElement().
+	~document.appendChild().
+	=Todos los anteriores.
+}
+
+
+//Pregunta 11:
+::focus :: ¿Qué podemos hacer con focus? {	
+	~Hacer foco en un alert.
+	=Capturar cuando un elemento obtiene el foco de atención.
+	~Capturar cuando un elemento pierde el foco de atención.
+	~Capturar cuando un elemento mantiene el foco de atención.
+}
+
+//Pregunta 12:
+::blur :: ¿Qué podemos hacer con blur? {
+	~Hacer foco en un alert.
+	~Capturar cuando un elemento obtiene el foco de atención.
+	=Capturar cuando un elemento pierde el foco de atención.
+	~Capturar cuando un elemento mantiene el foco de atención.
+}
+
+//Pregunta 13:
+::keyup :: El evento keyup nos permite capturar cuando un usuario {=suelta ~mantiene pulsado ~pulsa} una tecla.
+
+//Pregunta 14:
+::search :: El evento search nos permite capturar cuando un usuario escribe algo en un input de tipo search y pulsa ENTER.{TRUE}
+
+//Pregunta 15:
+::DOMContentLoaded :: ¿Qué hace el evento DOMContentLoaded? {
+	~Esperar a que cargue todo el JS para ejecutarlo.
+	~Esperar a que cargue todo el HTML para ejecutarlo.
+	=Esperar a que cargue toda la página para ejecutarlo.
+	~Esperar a que se descargue todo el HTML para ejecutarlo.
+}

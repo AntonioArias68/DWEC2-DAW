@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafael Lopez Cruz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Strings y Regex</title>
+    <script src="js/string-regex.js"></script>
+</head>
+<body>
+    <noscript>
+        <h1>Esta p&aacute;gina requiere el uso de JavaScript</h1>
+    </noscript>
+    <p>
+        Capitaliza. Transforma entrada a otra similiar con la primera letra de cada palabra en mayúscula.<br>
+        <input type="text" id="inputCapitalizar"><br>
+        <button id="botonCapitalizar">Enviar</button>
+    </p>
+
+    <p>
+        Invierte. Transforma entrada a otra similiar con las mayúsculas/minúsculas invertidas.<br>
+        <input type="text" id="inputInvierte"><br>
+        <button id="botonInvierte">Enviar</button>
+    </p>
+
+    <p>
+        CamelCase.  Transforma entrada a otra similiar con formato en Camel Case (hola amigos cómo estáis -> holaAmigosCómoEstáis)<br>
+        <input type="text" id="inputCamel"><br>
+        <button id="botonCamel">Enviar</button>
+    </p>
+
+    <p>
+        Sin CamelCase.  Transforma entrada a otra similiar quitando el formato Camel Case (holaAmigosCómoEstáis -> hola amigos cómo estáis)<br>
+        <input type="text" id="inputSinCamel"><br>
+        <button id="botonSinCamel">Enviar</button>
+    </p>
+
+    <p>
+        <input type="text" id="inputTexto"><br>
+        Finaliza... Averigua si una cadena acaba con otra.<br>
+        <input type="text" id="inputFinaliza"><br>
+        <button id="botonFinaliza">Enviar</button>
+
+        Empieza... Averigua si una cadena comienza con otra.<br>
+        <input type="text" id="inputEmpieza"><br>
+        <button id="botonEmpieza">Enviar</button>
+        <br><span id="spanTexto"></span>
+    </p>
+
+    <p>
+        DNI. Indica error en caso de que la entrada no sea DNI válido. Usa expresiones regulares con grupos de captura en la comprobación de la letra<br>
+        <input type="text" id="inputDNI"><br>
+        <button id="botonDNI">Enviar</button>
+    </p>
+    
+</body>
+</html>

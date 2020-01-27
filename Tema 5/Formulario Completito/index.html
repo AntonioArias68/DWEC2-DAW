@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rafael Lopez Cruz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario Completito</title>
+    <script src="js/validar.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <noscript>
+        <h1>Esta p&aacute;gina requiere el uso de JavaScript</h1>
+    </noscript>
+    <h1>Formulario completito</h1>
+    <form id="form">
+        <br><label>Nombre: <input type="text" required></label>
+        <br><label>Email: <input type="email" required></label>
+        <br><label>DNI: <input type="text" required></label>
+        <br><label>Fecha: <input type="text" required></label>
+        <br><label>URL: <input type="url" required></label>
+        <br><label>Edad: <input type="number" required></label>
+        <br><label>Número de teléfono: <input type="text" required></label>
+        <p>Lenguajes de programación que conoces:
+        <label><br>Python<input type="checkbox" name="programacion" value="python"></label>
+        <label><br>Java<input type="checkbox" name="programacion" value="java"></label>
+        <label><br>Otros<input type="checkbox" name="programacion" value="otros"></label>
+        
+        <p>Selecciona tú nivel de ingles:
+        <br><label>A1<input type="radio" name="ingles" value="A1" required></label>
+        <br><label>A2<input type="radio" name="ingles" value="A2" required></label>
+        <br><label>B1<input type="radio" name="ingles" value="B1" required></label>
+        <br><label>B2<input type="radio" name="ingles" value="B2" required></label>
+        
+        <p><label>
+            Tú comida favorita es:
+            <select name="comida" required>
+                <option value="pizza">Pizza</option>
+                <option value="pizza">Pasta</option>
+                <option value="pizza">Chuletón</option>
+            </select>
+        </label>
+        
+        <p><input type="submit" value="Enviar" required></p>
+    </form>
+</body>
+</html>
